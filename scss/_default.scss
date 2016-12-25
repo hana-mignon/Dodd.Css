@@ -1,0 +1,13 @@
+/*
+  * "Dodd.Css" -Version 1.0.0-beta.1~- Css.
+  * Default colors scss file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/ 
+
+.dodd{
+  background-color: $bg-color;
+  background-image:linear-gradient(to bottom, $bg-color $amount, transparent $amount),linear-gradient(to right, $bg-dodd $amount, transparent $amount);
+  background-size: $bg-size $bg-size;
+}

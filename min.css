@@ -1,0 +1,9 @@
+/*
+  * "Dodd.Css" -Version 1.0.0-beta.1~- Css.
+  * Min css file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/  
+
+.dodd { background-color: aliceblue; background-image: linear-gradient(to bottom, aliceblue 50%, transparent 50%), linear-gradient(to right, pink 50%, transparent 50%); background-size: 20px 20px;} .dodd-saturate { background-color: aliceblue; background-image: linear-gradient(to bottom, aliceblue 50%, transparent 50%), linear-gradient(to right, pink 50%, transparent 50%); background-size: 20px 20px;} .dodd-lighten { background-color: white; background-image: linear-gradient(to bottom, white 50%, transparent 50%), linear-gradient(to right, #ffe9ed 50%, transparent 50%); background-size: 20px 20px;} .dodd-desaturate { background-color: #f1f8fe; background-image: linear-gradient(to bottom, #f1f8fe 50%, transparent 50%), linear-gradient(to right, #fcc3cd 50%, transparent 50%); background-size: 20px 20px;} .dodd-darken { background-color: #c7e5ff; background-image: linear-gradient(to bottom, #c7e5ff 50%, transparent 50%), linear-gradient(to right, pink 50%, transparent 50%); background-size: 20px 20px;}

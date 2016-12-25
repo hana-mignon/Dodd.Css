@@ -1,0 +1,13 @@
+/*
+  * "Dodd.Css" -Version 1.0.0-beta.1~- Css.
+  * Desaturate Colors scss file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/  
+
+.dodd-desaturate{
+  background-color: desaturate($bg-color,$bg-amount);
+  background-image:linear-gradient(to bottom, desaturate($bg-color,$bg-amount) $amount, transparent $amount),linear-gradient(to right, desaturate($bg-dodd , $bg-amount) $amount, transparent $amount);
+  background-size: $bg-size $bg-size;
+}

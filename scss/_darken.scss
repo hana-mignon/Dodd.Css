@@ -1,0 +1,13 @@
+/*
+   * "Dodd.Css" -Version 1.0.0-beta.2~- Css.
+　 * Dark colors scss file.
+   * The MIT License.
+   * Copyright hana.
+   * https://github.com/hana-mignon.
+*/    
+
+.dodd-darken{
+  background-color: darken($bg-color,$bg-amount);
+  background-image:linear-gradient(to bottom, darken($bg-color,$bg-amount) $amount, transparent $amount),linear-gradient(to right, $bg-dodd $amount, transparent $amount);
+  background-size: $bg-size $bg-size;
+}

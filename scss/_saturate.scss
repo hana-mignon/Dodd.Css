@@ -1,0 +1,13 @@
+/*
+  * "Dodd.Css" -Version 1.0.0-beta.1~- Css.
+  * Saturate Colors scss file.
+  * The MIT License.
+  * Copyright hana.
+  * https://github.com/hana-mignon.
+*/  
+
+.dodd-saturate{
+  background-color: saturate($bg-color,$bg-amount);
+  background-image:linear-gradient(to bottom, saturate($bg-color,$bg-amount) $amount, transparent $amount),linear-gradient(to right, saturate($bg-dodd , $bg-amount) $amount, transparent $amount);
+  background-size: $bg-size $bg-size;
+}
