@@ -35,7 +35,7 @@
 * To use jQuery you need "**[jQuery](https://jquery.com/) file**".
 
 ```
-<script src="path/jquery-3.1.1.min.js"></script>
+<script src="path/jquery-3.2.1.min.js"></script>
 ```
  
 * Please give the element a **class name**.
